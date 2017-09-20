@@ -15,7 +15,7 @@ VueJS
 AngularJS
 Javascript
 
-2.1 - Dentro dos temas acima, escolher um capítulo e fazer um vídeo de no máximo 5 minutos (1 vídeo diferente no mesmo tema por membro da equipe) e subir no Youtube.
+2.1 - Dentro dos temas acima, escolher um capítulo e fazer um vídeo de no máximo 10 minutos (1 vídeo diferente no mesmo tema por membro da equipe) e subir no Youtube.
 
 2.2 - Permitir na sua página que o usuário possa compartilhar o vídeo nas redes sociais (ex.: Botão de compartilhar)
 
