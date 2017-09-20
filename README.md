@@ -5,15 +5,15 @@ Trabalho em grupo (de 1 a 3 pessoas).
 1.Pesquisar e mostrar 3 soluções que ensinam através de vídeo
 
 2.Baseado na sua pesquisa, propor e criar uma página HTML estática que exibe um tutorial em vídeo (criado por vocês) sobre algum dos temas abaixo:
-NodeJS
-MongoDB
-NodeJS + MongoDB
-ReactJS
-Travis CI
-Jenkins
-VueJS
-AngularJS
-Javascript
+- NodeJS  
+- MongoDB  
+- NodeJS + MongoDB  
+- ReactJS  
+- Travis CI  
+- Jenkins  
+- VueJS  
+- AngularJS  
+- Javascript  
 
 2.1 - Dentro dos temas acima, escolher um capítulo e fazer um vídeo de no máximo 10 minutos (1 vídeo diferente no mesmo tema por membro da equipe) e subir no Youtube.
 
