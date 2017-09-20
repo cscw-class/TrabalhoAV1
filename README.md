@@ -44,7 +44,7 @@ Logotipo Learnpedia
 
 7 - O repositório do projeto a ser usado deve ser este:
 - Faça um Fork deste repositório
-- Criar uma branch para a sua implementaçã
+- Criar uma branch para a sua implementação
 - Enviar-me um pull request
 
 8 - Crie uma página Wiki no repositório do projeto com o nome dos componentes da sua equipe, quais foram os temas escolhidos e o link para a sua página.
