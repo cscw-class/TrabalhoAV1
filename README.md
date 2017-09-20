@@ -22,16 +22,16 @@ Trabalho em grupo (de 1 a 3 pessoas).
 2.3 - Sua página vai exibir o seu vídeo criado no Youtube
 
 2.4 - Na página de exibição do vídeo tutorial, devem conter no mínimo, os seguintes componentes de tela:
-Título do tutorial
-Descrição resumida
-Autor
-Foto do autor
-Data da publicação
-Video
-Opção de compartilhar
-Opção de pular para o próximo vídeo
-Comentários do facebook
-Logotipo Learnpedia
+- Título do tutorial  
+- Descrição resumida  
+- Autor  
+- Foto do autor  
+- Data da publicação  
+- Video  
+- Opção de compartilhar  
+- Opção de pular para o próximo vídeo  
+- Comentários do facebook  
+- Logotipo Learnpedia  
 
 
 3 - Após escolher seu tema e capitulo, crie uma tarefa no github do projeto e atribua a si mesmo (não pode haver capitulos de temas já escolhido por outras equipes. Se escolher já publica no slack caso ainda não tenha acesso ao repo)
