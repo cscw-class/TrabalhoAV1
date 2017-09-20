@@ -1,4 +1,4 @@
-# TrabalhoAV1
+# Trabalho AV1
 
 Trabalho em grupo (de 1 a 3 pessoas).
 
