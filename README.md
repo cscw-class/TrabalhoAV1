@@ -1,5 +1,4 @@
 # TrabalhoAV1
-Trabalho CSCW - AV1
 
 Trabalho em grupo (de 1 a 3 pessoas).
 
