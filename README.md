@@ -49,6 +49,6 @@ Logotipo Learnpedia
 
 8 - Crie uma página Wiki no repositório do projeto com o nome dos componentes da sua equipe, quais foram os temas escolhidos e o link para a sua página.
 
-9 - Apresente seu trabalho no dia da AV1 - Esta será a sua nota da prova
+9 - Apresente seu trabalho no dia da AV1 - Esta será a sua nota da prova (enviar link com GooglePresentation)
 
 10 - Divirta-se! Capriche no visual e na usabilidade, a melhor página será escolhida para a fase da AV2
