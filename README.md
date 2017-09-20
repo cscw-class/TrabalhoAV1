@@ -43,7 +43,9 @@ Logotipo Learnpedia
 6 - Integre sua página ao HTML principal que acessa todos os tutoriais
 
 7 - O repositório do projeto a ser usado deve ser este:
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- Faça um Fork deste repositório
+- Criar uma branch para a sua implementaçã
+- Enviar-me um pull request
 
 8 - Crie uma página Wiki no repositório do projeto com o nome dos componentes da sua equipe, quais foram os temas escolhidos e o link para a sua página.
 
