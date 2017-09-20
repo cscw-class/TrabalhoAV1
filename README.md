@@ -34,7 +34,7 @@ Comentários do facebook
 Logotipo Learnpedia
 
 
-3 - Após escolher seu tema e capitulo, crie uma tarefa no github do projeto e atribua a si mesmo
+3 - Após escolher seu tema e capitulo, crie uma tarefa no github do projeto e atribua a si mesmo (não pode haver capitulos de temas já escolhido por outras equipes. Se escolher já publica no slack caso ainda não tenha acesso ao repo)
 
 4 - Documente as comunicações no Slack
 
