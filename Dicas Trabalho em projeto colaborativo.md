@@ -26,9 +26,10 @@ git remote add upstream https://github.com/cscw-class/TrabalhoAV1/
 git pull upstream
 ```
 
-3. Fazer o rebase do master com o master do upstream
-git rebase upstream/master
-
+3. Fazer o rebase do master com o master do upstream  
+```javascript  
+git rebase upstream/master  
+```
 
 ## Criar uma issue para começar a trabalhar  
 Clique na URL abaixo para criar uma nova issue de propsta de trabalho  
