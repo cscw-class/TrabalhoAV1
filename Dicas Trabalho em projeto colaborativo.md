@@ -19,3 +19,7 @@ git remote add upstream https://github.com/cscw-class/TrabalhoAV1/
 git pull upstream
 ```
 
+## Criar uma issue para começar a trabalhar  
+Clique na URL abaixo para criar uma nova issue de propsta de trabalho  
+
+https://github.com/cscw-class/TrabalhoAV1/issues
