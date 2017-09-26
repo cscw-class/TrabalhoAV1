@@ -32,3 +32,9 @@ Grupo 5:
 Componentes:Renata Machado - reehmachado, Jordan Mendonça  
 Tema: JavaScript  
 Capítulo/título do vídeo : A definir  
+
+Grupo 5:
+---------  
+Componentes: Matheus Simoes - mathfelix / Raoni - raonicmoreira  
+Tema: Firebase  
+Capítulo/título do vídeo : A definir  
