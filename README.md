@@ -17,6 +17,7 @@ Trabalho em grupo (de 1 a 3 pessoas).
 - Firebase  
 - Heroku  
 - Yeoman  
+- Mardown Editor  
 
 2.1 - Dentro dos temas acima, escolher um capítulo e fazer um vídeo de 6-10 minutos (1 vídeo diferente no mesmo tema por membro da equipe) e subir no Youtube.
 
@@ -60,7 +61,7 @@ Trabalho em grupo (de 1 a 3 pessoas).
 
 ### Links importantes:
 
- * [grupos](https://github.com/cscw-class/TrabalhoAV1/blob/master/grupos.md) Formação dos grupos  
+ * [Grupos](https://github.com/cscw-class/TrabalhoAV1/blob/master/grupos.md) Formação dos grupos  
  * [Dicas de Trabalho Colobarativo](https://github.com/cscw-class/TrabalhoAV1/blob/master/Dicas%20Trabalho%20em%20projeto%20colaborativo.md) Para dúvidas no workflow de trabalho  
  
  
