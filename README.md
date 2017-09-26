@@ -16,7 +16,6 @@ Trabalho em grupo (de 1 a 3 pessoas).
 - Javascript  
 - Firebase  
 - Heroku  
-- Yeoman  
 
 2.1 - Dentro dos temas acima, escolher um capítulo e fazer um vídeo de no máximo 10 minutos (1 vídeo diferente no mesmo tema por membro da equipe) e subir no Youtube.
 
