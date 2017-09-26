@@ -18,8 +18,8 @@ Componentes: Gabriel Amorim - GabrielSampaio / Emmanuel Marinho - eumzzz / Ian S
 Tema: NodeJS
 Capítulo/título do vídeo : A definir  
 
-+Grupo 3:   
-+---------  
-+Componentes:Renata Machado - reehmachado, Jordan Mendonça 
-+Tema: JavaScript  
-+Capítulo/título do vídeo : A definir  
+Grupo 4:   
+---------  
+Componentes:Renata Machado - reehmachado, Jordan Mendonça 
+Tema: JavaScript  
+Capítulo/título do vídeo : A definir  
