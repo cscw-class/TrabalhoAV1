@@ -38,3 +38,9 @@ Grupo 6:
 Componentes: Matheus Simoes - mathfelix / Raoni - raonicmoreira  
 Tema: Firebase  
 Capítulo/título do vídeo : A definir  
+
+Grupo 7:   
+---------  
+Componentes: Maryana Feijo - maryfeijo    
+Tema: Markdown Editor  
+Capítulo/título do vídeo : Aprenda Markdown
