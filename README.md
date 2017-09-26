@@ -60,7 +60,7 @@ Trabalho em grupo (de 1 a 3 pessoas).
 
 ### Links importantes:
 
- * [grupos](https://github.com/markdown-it/markdown-it) Formação dos grupos  
- * [Dicas de Trabalho Colobarativo](https://github.com/markdown-it/markdown-it) Para dúvidas no workflow de trabalho  
+ * [grupos](https://github.com/cscw-class/TrabalhoAV1/blob/master/grupos.md) Formação dos grupos  
+ * [Dicas de Trabalho Colobarativo](https://github.com/cscw-class/TrabalhoAV1/blob/master/Dicas%20Trabalho%20em%20projeto%20colaborativo.md) Para dúvidas no workflow de trabalho  
  
  
