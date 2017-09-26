@@ -55,3 +55,12 @@ Trabalho em grupo (de 1 a 3 pessoas).
 9 - Apresente seu trabalho no dia da AV1 - Esta será a sua nota da prova (enviar link com GooglePresentation)
 
 10 - Divirta-se! Capriche no visual e na usabilidade, a melhor página será escolhida para a fase da AV2
+
+
+
+### Links importantes:
+
+ * [grupos](https://github.com/markdown-it/markdown-it) Formação dos grupos  
+ * [Dicas de Trabalho Colobarativo](https://github.com/markdown-it/markdown-it) Para dúvidas no workflow de trabalho  
+ 
+ 
