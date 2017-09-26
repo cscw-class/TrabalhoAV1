@@ -1,4 +1,4 @@
-Grupos, temas e capitulos
+Grupos, temas e capítulos
 --------------------------
 Grupo 1:   
 ---------  
