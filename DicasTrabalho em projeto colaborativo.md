@@ -7,3 +7,15 @@
 * (Trabalhe na sua branch).  
 * Commitar e enviar suas alterações para o seu GitHub.  
 * Abrir um pull request da sua branch para o projeto original.  
+
+## Atualizar o repositório forkado  
+1-Setar um upstream  
+```javascript
+git remote add upstream https://github.com/cscw-class/TrabalhoAV1/
+```
+
+2-Atualizar  
+```javascript
+git pull upstream
+```
+
