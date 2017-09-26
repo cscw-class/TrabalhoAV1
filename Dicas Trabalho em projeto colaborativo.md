@@ -1,12 +1,19 @@
 ## O processo de contribuição basicamente é o seguinte:
-
+1-Ao iniciar o projeto  
 * Fork do projeto para o seu usuário.  
-* Clone do projeto forkado na sua máquina.  
+* Clone do projeto forkado na sua máquina.
+
+2-Ao iniciar uma nova atividade  
+* Crie uma [issue] para documentar o que você vai fazer
 * Antes de iniciar nova branch, atualização do seu projeto com o projeto original (forkado).  
 * Crie uma branch para o seu objetivo naquele trabalho.  
 * (Trabalhe na sua branch).  
-* Commitar e enviar suas alterações para o seu GitHub.  
-* Abrir um pull request da sua branch para o projeto original.  
+* Adicionar, commitar e enviar suas alterações para o seu GitHub.  
+
+3-Ao término de uma tarefa (issue)
+* Abrir um pull request da sua branch para o projeto original.  
+* Excluir sua branch
+
 
 ## Atualizar o repositório forkado  
 1-Setar um upstream  
