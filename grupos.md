@@ -20,6 +20,6 @@ Capítulo/título do vídeo : A definir
 
 Grupo 4:   
 ---------  
-Componentes:Renata Machado - reehmachado, Jordan Mendonça 
+Componentes:Renata Machado - reehmachado, Jordan Mendonça  
 Tema: JavaScript  
 Capítulo/título do vídeo : A definir  
