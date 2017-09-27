@@ -50,3 +50,10 @@ Grupo 8:
 Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - isukowski / Maycon Klopper - MayconKlopper    
 Tema: **MongoDB**  
 Capítulo/título do vídeo : 1 - Introdução ao MongoDB / 
+
+
+Grupo 10:   
+---------  
+Componentes: Caio Boechat - CaioBoechat/ Eduardo Gomes - ????    
+Tema: **NodeJS**  
+Capítulo/título do vídeo : ???
