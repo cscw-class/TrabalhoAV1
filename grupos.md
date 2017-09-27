@@ -55,4 +55,4 @@ Grupo 9:
 --------
 Componente: Bruna - BrunaToledoGuedes
 Tema: Docker
-Capítulo/título do vídeo: A definir 
+Capítulo/título do vídeo: A definir . 
