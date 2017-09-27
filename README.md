@@ -22,9 +22,9 @@ Trabalho em grupo (de 1 a 3 pessoas).
 
 2.1 - Dentro dos temas acima, escolher um capítulo e fazer um vídeo de 6-10 minutos (1 vídeo diferente no mesmo tema por membro da equipe) e subir no Youtube.
 
-2.2 - Permitir na sua página que o usuário possa compartilhar o vídeo nas redes sociais (ex.: Botão de compartilhar)
+2.2 - Permitir na sua página que o usuário possa compartilhar o vídeo nas redes sociais (ex.: Botão de compartilhar).
 
-2.3 - Sua página vai exibir o seu vídeo criado no Youtube
+2.3 - Sua página vai exibir o seu vídeo criado no Youtube.
 
 2.4 - Na página de exibição do vídeo tutorial, devem conter no mínimo, os seguintes componentes de tela:
 - Título do tutorial  
@@ -39,24 +39,23 @@ Trabalho em grupo (de 1 a 3 pessoas).
 - Logotipo Learnpedia  
 
 
-3 - Após escolher seu tema e capitulo, crie uma tarefa no github do projeto e atribua a si mesmo (não pode haver capitulos de temas já escolhido por outras equipes. Se escolher já publica no slack caso ainda não tenha acesso ao repo)
+3 - Após escolher seu tema e capítulo, atualize o arquivo [grupos.md](https://github.com/cscw-class/TrabalhoAV1/blob/master/grupos.md) com sua escolha (não pode haver capitulos de temas já escolhido por outras equipes. Se escolher já publica no slack caso ainda não tenha acesso ao repo).
 
-4 - Documente as comunicações no Slack
+4 - Documente as comunicações no Slack.
 
-5 - Atualize o quadro SCRUM do projeto com o andamento das suas atividades
+5 - Para mater o quadro SCRUM do projeto atualizado, sempre crie uma issue atrelado ao seu pull request.
 
-6 - Integre sua página ao HTML principal que acessa todos os tutoriais
+6 - Integre sua página ao HTML principal que acessa todos os tutoriais. A sua página deve estar dentro da pasta com o nome do seu grupo. Ex.: grupo01, grupo02, grupo03....
 
-7 - O repositório do projeto a ser usado deve ser este:
+7 - O repositório do projeto a ser usado deve ser este [Dicas de Trabalho Colobarativo](https://github.com/cscw-class/TrabalhoAV1/blob/master/Dicas%20Trabalho%20em%20projeto%20colaborativo.md):
 - Faça um Fork deste repositório
-- Criar uma branch para a sua implementação
+- Criar uma issue e uma branch para a sua implementação
+- (Trabalhe)
 - Enviar-me um pull request
 
-8 - Crie uma página Wiki no repositório do projeto com o nome dos componentes da sua equipe, quais foram os temas escolhidos e o link para a sua página.
+8 - Apresente seu trabalho no dia da AV1 - Esta será a sua nota da prova (enviar link com GooglePresentation)
 
-9 - Apresente seu trabalho no dia da AV1 - Esta será a sua nota da prova (enviar link com GooglePresentation)
-
-10 - Divirta-se! Capriche no visual e na usabilidade, a melhor página será escolhida para a fase da AV2
+9 - Divirta-se! Capriche no visual e na usabilidade, a melhor página será escolhida para a fase da AV2
 
 
 
