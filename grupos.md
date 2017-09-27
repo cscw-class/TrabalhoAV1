@@ -68,4 +68,11 @@ Grupo 11:
 Componentes: Renan Calmon - Renanxc / Pedro - ?  
 Tema: ?  
 Capítulo/título do vídeo : A definir  
+Grupo 12
+
+Grupo 12:  
+--------  
+Componentes:Samuel Ribeiro -vipersamuka    
+Tema: vueJS    
+Capítulo/título do vídeo : A definir  
 
