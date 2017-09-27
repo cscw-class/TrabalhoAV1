@@ -3,25 +3,25 @@ Grupos, temas e capítulos
 Grupo 1:   
 ---------  
 Componentes: Yuri Lima - yurilima    
-Tema: Jenkins  
+Tema: **Jenkins**  
 Capítulo/título do vídeo : ??????  
 
 Grupo 2:   
 ---------  
 Componentes: Felipe Prado - fpterrific  
-Tema: MongoDB  
+Tema: **MongoDB**  
 Capítulo/título do vídeo : A definir  
 
 Grupo 3:   
 ---------  
 Componentes: Gabriel Amorim - GabrielSampaio / Emmanuel Marinho - eumzzz / Ian Saud - IanSaud  
-Tema: NodeJS
+Tema: **NodeJS**  
 Capítulo/título do vídeo : A definir  
 
 Grupo 4:   
 ---------  
 Componentes: Mariani Pereira- MarianiPSM / Matheus Santos - MatheusSantosFerreira / Rafael Marcílio - rafaelbatistamarcilio  
-Tema: Angular  
+Tema: **Angular**  
 Capítulo/título do vídeo :   
 1 - Introdução ao Angular  
 2 - Criando projeto Angular  
@@ -30,23 +30,23 @@ Capítulo/título do vídeo :
 Grupo 5:   
 ---------  
 Componentes:Renata Machado - reehmachado, Jordan Mendonça  
-Tema: JavaScript  
+Tema: **JavaScript**  
 Capítulo/título do vídeo : A definir  
 
 Grupo 6:
 ---------  
 Componentes: Matheus Simoes - mathfelix / Raoni - raonicmoreira  
-Tema: Firebase  
+Tema: **Firebase**  
 Capítulo/título do vídeo : A definir  
 
 Grupo 7:   
 ---------  
 Componentes: Maryana Feijo - maryfeijo    
-Tema: Markdown Editor  
+Tema: **Markdown Editor**  
 Capítulo/título do vídeo : Aprenda Markdown
 
 Grupo 8:   
 ---------  
 Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - isukowski / Maycon Klopper - MayconKlopper    
-Tema: MongoDB  
+Tema: **MongoDB**  
 Capítulo/título do vídeo : 1 - Introdução ao MongoDB / 
