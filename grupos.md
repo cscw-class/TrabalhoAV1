@@ -44,3 +44,9 @@ Grupo 7:
 Componentes: Maryana Feijo - maryfeijo    
 Tema: Markdown Editor  
 Capítulo/título do vídeo : Aprenda Markdown
+
+Grupo 8:   
+---------  
+Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - isukowski / Maycon Klopper - MayconKlopper    
+Tema: MongoDB  
+Capítulo/título do vídeo : 1 - Introdução ao MongoDB / 
