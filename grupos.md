@@ -56,3 +56,9 @@ Grupo 9:
 Componente: Bruna - BrunaToledoGuedes  
 Tema: **Docker**  
 Capítulo/título do vídeo: A definir .  
+
+Grupo 10:   
+---------  
+Componentes: Caio Boechat - CaioBoechat/ Eduardo Gomes - ????  
+Tema: **NodeJS**  
+Capítulo/título do vídeo : ???  
