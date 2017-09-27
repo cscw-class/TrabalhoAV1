@@ -62,3 +62,10 @@ Grupo 10:
 Componentes: Caio Boechat - CaioBoechat/ Eduardo Gomes - ????  
 Tema: **NodeJS**  
 Capítulo/título do vídeo : ???  
+
+Grupo 11:  
+--------  
+Componentes: Renan Calmon - Renanxc / Pedro - ?  
+Tema: ?  
+Capítulo/título do vídeo : A definir  
+
