@@ -9,8 +9,8 @@ Capítulo/título do vídeo : Visão Geral
 Grupo 2:   
 ---------  
 Componentes: Felipe Prado - fpterrific  
-Tema: **MongoDB**  
-Capítulo/título do vídeo : A definir  
+Tema: **ReactJS**  
+Capítulo/título do vídeo : Visão geral  
 
 Grupo 3:   
 ---------  
@@ -51,8 +51,21 @@ Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - is
 Tema: **MongoDB**  
 Capítulo/título do vídeo : 1 - Introdução ao MongoDB / 
 
-Grupo 9:  
+Grupo 9:
+--------
+Componente: Bruna - BrunaToledoGuedes  
+Tema: **Docker**  
+Capítulo/título do vídeo: A definir .  
+
+Grupo 10:   
+---------  
+Componentes: Caio Boechat - CaioBoechat/ Eduardo Gomes - ????  
+Tema: **NodeJS**  
+Capítulo/título do vídeo : ???  
+
+Grupo 11:  
 --------  
 Componentes: Renan Calmon - Renanxc / Pedro - ?  
 Tema: ?  
 Capítulo/título do vídeo : A definir  
+
