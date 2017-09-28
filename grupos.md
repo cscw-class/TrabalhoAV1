@@ -31,7 +31,7 @@ Grupo 5:
 ---------  
 Componentes:Renata Machado - reehmachado, Jordan Mendonça  
 Tema: **JavaScript**  
-Capítulo/título do vídeo : A definir  
+Capítulo/título do vídeo : Cap1 - Introdução ao ECMASCRIPT ES  
 
 Grupo 6:
 ---------  
