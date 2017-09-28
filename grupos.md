@@ -74,5 +74,11 @@ Grupo 12:
 --------  
 Componentes:Samuel Ribeiro -vipersamuka    
 Tema: vueJS    
-Capítulo/título do vídeo : A definir  
+Capítulo/título do vídeo : A definir 
+
+Grupo 13:  
+--------  
+Componentes:Diego Maciel - ??? ; João Tavares - ??? ; Márcio Mota - mmota2017      
+Tema: Heroku     
+Capítulo/título do vídeo : A definir 
 
