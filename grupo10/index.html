@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>LearnPedia</title>
+
+    <link rel="icon" href="img/nodejs-256.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-principal">
+      <div class="container-fluid">
+
+        <!-- header -->
+        <div class="navbar-header">
+
+          <!-- button toggle -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <span class="img-logo">LearnPedia</span>
+          </a>
+        </div><!-- /navbar-header -->
+        <!-- navbar -->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li style="max-width: 200px;">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+              </div><!-- /input-group -->
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cursos <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">NodeJS</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Categorias</a></li>
+              </ul>
+            </li>
+            <li><a href="">Fórum</a></li>
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">Entrar</a></li>
+            <li><a href="">Cadastrar-se</a></li>
+          </ul>
+        </div> 
+      </div><!-- /container -->
+    </nav>
+    <div id="wrapper">
+  
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <nav id="spy">
+            <ul class="sidebar-nav nav">
+              <div class="panel panel-success">
+                <!-- Default panel contents -->
+                <div class="panel-heading"><h4>NodeJS</h4></div>
+                <div class="list-group">
+                  <a href="#" class="list-group-item active">
+                    <h5>
+                      Capítulo 1
+                      <span class="pull-right label label-default">9:58</span>
+                    </h5>
+                  </a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                  <a href="#" class="list-group-item"><h5>Capítulo 1<span class="pull-right label label-default">9:58</span></h5></a>
+                </div>
+              </div>
+                <li class="sidebar-brand">
+                    <a href="#home"><span class="fa fa-home solo">Home</span></a>
+                </li>
+                <li>
+                    <a href="#anch1">
+                        <span class="fa fa-anchor solo">Anchor 1</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#anch2">
+                        <span class="fa fa-anchor solo">Anchor 2</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#anch3">
+                        <span class="fa fa-anchor solo">Anchor 3</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#anch4">
+                        <span class="fa fa-anchor solo">Anchor 4</span>
+                    </a>
+                </li>
+            </ul>
+              <div class="bg-gray menu-toggle">
+                <a id="menu-toggle" href="#" class="btn-menu toggle">
+                  <i class="fa fa-caret-left" aria-hidden="true"></i>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <!-- Page content -->
+    <div id="page-content-wrapper">
+      <div class="page-content">
+        <div class="container-fluid">
+              <!-- Conteudos -->
+          <section class="detalhes-topo">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>NodeJS</h2>
+                  <h4>autor</h4>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="video" class="video">
+            <div class="container-fluid">
+
+              <div class="row">
+                <!-- albuns -->
+                <div class="col-md-10 col-md-offset-1 video-col">
+                  
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jhFDyDgMVUI?rel=0" frameborder="0" allowfullscreen></iframe>
+                  </div>
+
+                </div>
+                
+              </div> <!-- /row -->
+            </div> <!-- /container -->
+          </section>
+          <section class="conteudo-principal">
+            <div class="row line-bottom">
+              <div class="col-md-10 col-md-offset-1">
+                <ul class="nav nav-tabs">
+                  <li role="presentation" class="active"><a href="#">Resumo</a></li>
+                  <li role="presentation"><a href="#">Materiais</a></li>
+                  <li role="presentation"><a href="#">Messages</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <!-- Twitter -->
+                <a href="http://twitter.com/share?url=https://elgsantos.github.io/TrabalhoAV1/" target="_blank" class="share-btn twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+
+                <!-- Google Plus -->
+                <a href="https://plus.google.com/share?url=https://elgsantos.github.io/TrabalhoAV1/" target="_blank" class="share-btn google-plus">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+
+                <!-- Facebook -->
+                <a href="http://www.facebook.com/sharer/sharer.php?u=https://elgsantos.github.io/TrabalhoAV1/" target="_blank" class="share-btn facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="http://www.linkedin.com/shareArticle?url=https://elgsantos.github.io/TrabalhoAV1/" target="_blank" class="share-btn linkedin">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <!-- albuns -->
+                <div class="col-md-8">
+                  
+                 <h4>Published on May 8, 2017</h4>
+
+                  <p>SSAA</p>
+
+                </div>
+                <div class="col-md-4">
+                  
+                 <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="img/64x64.svg" alt="Autor">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Autor</h4>
+                      <p>Eduardo Gomes</p>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4>Tags</h4>
+                      <span class="label label-success">NodeJS</span>
+                      <span class="label label-primary">JavaScript</span>
+                      <span class="label label-info">Backend</span>
+                      <span class="label label-primary">JavaScript</span>
+                      <span class="label label-info">Backend</span>
+                  </div>
+                </div>
+              </div><!-- /row -->
+            </div>
+          </section>
+        </div>
+      </div>
+
+        <!-- Rodape -->
+    <footer id="rodape" class="rodape">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <span class="img-logo">LearnPedia</span>
+          </div>
+          <div class="col-md-2">
+            <h4>Cursos</h4>
+            <ul class="nav">
+              <li>
+                <a href="">NodeJS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Comunidade</h4>
+            <ul class="nav">
+              <li>
+                <a href="">Fórum</a>
+              </li>
+              <li>
+                <a href="">Dúvidas Frequentes</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Links Úteis</h4>
+            <ul class="nav">
+              <li>
+                <a href="">Ajuda</a>
+              </li>
+              <li>
+                <a href="">Entrar</a>
+              </li>
+              <li>
+                <a href="">Cadastrar-se</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="nav">
+              <li class="pull-right">
+                <a href="">
+                  <img src="img/facebook.png" alt="">
+                </a>
+              </li>
+              <li class="pull-right">
+                <a href="">
+                  <img src="img/twitter.png" alt="">
+                </a>
+              </li>
+              <li class="pull-right">
+                <a href="">
+                  <img src="img/instagram.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /row -->
+      </div><!-- /container -->
+    </footer>
+    </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
