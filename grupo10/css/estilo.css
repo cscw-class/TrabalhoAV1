@@ -11,7 +11,7 @@ body{
 .img-logo{
 	height: 40px;
 	width: 132px;
-	/* background: url('') no-repeat; */
+	background: url('../img/Logo-Learnpedia2.png') no-repeat; 
 	display: block;
 	background-size: contain; /* imagem de fundo preenche */
 	color: transparent;
@@ -45,7 +45,7 @@ nav.header_fixed{
 }
 
 .navbar-principal .navbar-nav>li>a:hover, .rodape .nav a:hover{
-	color:#d9edf7;
+	color:#39b54a;
 	background: none;
 }
 
@@ -114,6 +114,8 @@ nav.header_fixed{
   list-style: none;
   margin: 0;
   padding: 0;
+  border-right: #ddd 1px solid;
+  height: 100%;
 }
 
 .sidebar-nav li {
@@ -183,6 +185,26 @@ nav.header_fixed{
 .menu-toggle{
 	position: absolute;
 	right: -25px;
+}
+.panel-learnpedia{
+	border: 0px;
+	border-radius: 0;
+}
+.panel-learnpedia .panel-heading{
+	border-radius: 0;
+	color: #fff;
+}
+.panel-learnpedia .active{
+	background-color: #009245;
+}
+.panel-learnpedia .list-group-item.active{
+	border-color: #009245;
+}
+.panel-learnpedia .list-group-item.active:hover{
+	background-color: #8cc63f;
+}
+.panel-learnpedia .list-group-item.active:focus{
+	background-color: #009245;
 }
 .rodar{
 	/* Safari */
@@ -349,6 +371,11 @@ footer {
 	padding:  50px 0px 20px 0px;
 	position: relative;
 }
+footer .img-logo{
+	background: url('../img/Logo-Learnpedia1.png') no-repeat; 
+	background-size: contain;
+	height: 118px;
+}
 
 .item-rede-social{
 	
@@ -385,4 +412,16 @@ h3{
 
 .recursos h3{
 	color: #9bf0e1;
+}
+
+/*== CORES ==*/
+
+.bg-logo1{
+	background-color: #009245;
+}
+.bg-logo2{
+	background-color: #39b54a;
+}
+.bg-logo3{
+	background-color: #8cc63f;
 }
