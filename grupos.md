@@ -16,7 +16,10 @@ Grupo 3:
 ---------  
 Componentes: Gabriel Amorim - GabrielSampaio / Emmanuel Marinho - eumzzz / Ian Saud - IanSaud  
 Tema: **NodeJS**  
-Capítulo/título do vídeo : A definir  
+Capítulo/título do vídeo :
+1 - O que é Node.JS
+2 - Utilizando o NPM e criando um projeto
+3 - Utilizando modulos
 
 Grupo 4:   
 ---------  
