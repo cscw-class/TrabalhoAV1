@@ -49,7 +49,7 @@ Grupo 8:
 ---------  
 Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - isukowski / Maycon Klopper - MayconKlopper    
 Tema: **MongoDB**  
-Capítulo/título do vídeo : 1 - Introdução ao MongoDB / 
+Capítulo/título do vídeo : 1 - Introdução ao MongoDB /
 
 Grupo 9:
 --------
@@ -74,11 +74,10 @@ Grupo 12:
 --------  
 Componentes:Samuel Ribeiro -vipersamuka    
 Tema: vueJS    
-Capítulo/título do vídeo : A definir 
+Capítulo/título do vídeo : A definir
 
 Grupo 13:  
 --------  
 Componentes:Diego Maciel - ??? ; João Tavares - ??? ; Márcio Mota - mmota2017      
 Tema: Heroku     
-Capítulo/título do vídeo : A definir 
-
+Capítulo/título do vídeo : A definir
