@@ -1,67 +1,62 @@
-# Trabalho AV1
+# [Start Bootstrap - Portfolio Item](https://startbootstrap.com/template-overviews/portfolio-item/)
 
-Trabalho em grupo (de 1 a 3 pessoas).
+[Portfolio Item](http://startbootstrap.com/template-overviews/portfolio-item/) is an individual portfolio item template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-1.Pesquisar e mostrar 3 soluções que ensinam através de vídeo
+## Preview
 
-2.Baseado na sua pesquisa, propor e criar uma página HTML estática que exibe um tutorial em vídeo (criado por vocês) sobre algum dos temas abaixo:
-- NodeJS  
-- MongoDB  
-- NodeJS + MongoDB  
-- ReactJS  
-- Travis CI  
-- Jenkins  
-- VueJS  
-- AngularJS  
-- Javascript  
-- Firebase  
-- Heroku  
-- Yeoman  
-- Mardown Editor  
-- Docker  
+[![Portfolio Item Preview](https://startbootstrap.com/assets/img/templates/portfolio-item.jpg)](https://blackrockdigital.github.io/startbootstrap-portfolio-item/)
 
-2.1 - Dentro dos temas acima, escolher um capítulo e fazer um vídeo de 6-10 minutos (1 vídeo diferente no mesmo tema por membro da equipe) e subir no Youtube.
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-portfolio-item/)**
 
-2.2 - Permitir na sua página que o usuário possa compartilhar o vídeo nas redes sociais (ex.: Botão de compartilhar).
+## Status
 
-2.3 - Sua página vai exibir o seu vídeo criado no Youtube.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-portfolio-item/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-portfolio-item.svg)](https://www.npmjs.com/package/startbootstrap-portfolio-item)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-portfolio-item.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-portfolio-item)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-portfolio-item/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-portfolio-item)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-portfolio-item/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-portfolio-item?type=dev)
 
-2.4 - Na página de exibição do vídeo tutorial, devem conter no mínimo, os seguintes componentes de tela:
-- Título do tutorial  
-- Descrição resumida  
-- Autor  
-- Foto do autor  
-- Data da publicação  
-- Video  
-- Opção de compartilhar  
-- Opção de pular para o próximo vídeo  
-- Comentários do facebook  
-- Logotipo Learnpedia  
+## Download and Installation
 
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/portfolio-item/)
+* Install via npm: `npm i startbootstrap-portfolio-item`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-portfolio-item.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-portfolio-item)
 
-3 - Após escolher seu tema e capítulo, atualize o arquivo [grupos.md](https://github.com/cscw-class/TrabalhoAV1/blob/master/grupos.md) com sua escolha (não pode haver capitulos de temas já escolhido por outras equipes. Se escolher já publica no slack caso ainda não tenha acesso ao repo).
+## Usage
 
-4 - Documente as comunicações no Slack.
+### Basic Usage
 
-5 - Para mater o quadro SCRUM do projeto atualizado, sempre crie uma issue atrelado ao seu pull request.
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-6 - Integre sua página ao HTML principal que acessa todos os tutoriais. A sua página deve estar dentro da pasta com o nome do seu grupo. Ex.: grupo01, grupo02, grupo03....
+### Advanced Usage
 
-7 - O repositório do projeto a ser usado deve ser este [Dicas de Trabalho Colobarativo](https://github.com/cscw-class/TrabalhoAV1/blob/master/Dicas%20Trabalho%20em%20projeto%20colaborativo.md):
-- Faça um Fork deste repositório
-- Criar uma issue e uma branch para a sua implementação
-- (Trabalhe)
-- Enviar-me um pull request
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-8 - Apresente seu trabalho no dia da AV1 - Esta será a sua nota da prova (enviar link com GooglePresentation)
+## Bugs and Issues
 
-9 - Divirta-se! Capriche no visual e na usabilidade, a melhor página será escolhida para a fase da AV2
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-portfolio-item/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/portfolio-item/).
 
+## Custom Builds
 
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
-### Links importantes:
+## About
 
- * [Grupos](https://github.com/cscw-class/TrabalhoAV1/blob/master/grupos.md) Formação dos grupos  
- * [Dicas de Trabalho Colobarativo](https://github.com/cscw-class/TrabalhoAV1/blob/master/Dicas%20Trabalho%20em%20projeto%20colaborativo.md) Para dúvidas no workflow de trabalho  
- 
- 
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/gh-pages/LICENSE) license.
