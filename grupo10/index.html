@@ -22,6 +22,14 @@
     <![endif]-->
   </head>
   <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
     <nav class="navbar navbar-fixed-top navbar-inverse navbar-principal">
       <div class="container-fluid">
@@ -36,8 +44,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index.html" class="navbar-brand">
+          <a href="index.html" class="navbar-brand" title="LearnPedia">
             <span class="img-logo">LearnPedia</span>
+            <span class="txt-logo hidden-xs">LearnPedia</span>
           </a>
         </div><!-- /navbar-header -->
         <!-- navbar -->
@@ -194,6 +203,9 @@
                 </div>
               </div><!-- /row -->
             </div>
+          </section>
+          <section>
+            <div class="fb-comments" data-href="https://elgsantos.github.io/TrabalhoAV1/" data-numposts="5"></div>
           </section>
         </div>
       </div>

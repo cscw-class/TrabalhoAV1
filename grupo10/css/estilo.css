@@ -9,10 +9,19 @@ body{
 
 /* -- Barra de Navegação -- */
 .img-logo{
-	height: 40px;
-	width: 132px;
+	height: 42px;
+	width: 51px;
 	background: url('../img/Logo-Learnpedia2.png') no-repeat; 
-	display: block;
+	display: inline-block;
+	background-size: contain; /* imagem de fundo preenche */
+	color: transparent;
+}
+
+.txt-logo{
+	height: 42px;
+	width: 174px;
+	background: url('../img/logo-learnpedia-white.png') no-repeat; 
+	display: inline-block;
 	background-size: contain; /* imagem de fundo preenche */
 	color: transparent;
 }
