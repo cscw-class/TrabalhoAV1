@@ -13,3 +13,13 @@ body {
         padding-top: 56px;
     }
 }
+
+.img-perfil{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.cor-tema {
+    background-color: #24292e;
+    color: white
+}
