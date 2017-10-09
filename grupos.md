@@ -51,9 +51,9 @@ Capítulo/título do vídeo : Aprenda Markdown
 
 Grupo 8:   
 ---------  
-Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - isukowski / Maycon Klopper - MayconKlopper    
+Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - izukowski / Maycon Klopper - MayconKlopper    
 Tema: **MongoDB**  
-Capítulo/título do vídeo : 1 - Introdução ao MongoDB /
+Capítulo/título do vídeo : 1 - Introdução ao MongoDB / 2 - Instalação e inicialização do MongoDB / 3 - CRUD MongoDB / 4 - Comandos Úteis
 
 Grupo 9:
 --------
