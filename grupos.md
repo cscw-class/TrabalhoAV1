@@ -16,7 +16,11 @@ Grupo 3:
 ---------  
 Componentes: Gabriel Amorim - GabrielSampaio / Emmanuel Marinho - eumzzz / Ian Saud - IanSaud  
 Tema: **NodeJS**  
-Capítulo/título do vídeo : A definir  
+Capítulo/título do vídeo :
+1 - O que é Node.JS
+2 - Utilizando o NPM e criando um projeto
+3 - Utilizando modulos
+
 
 Grupo 4:   
 ---------  
@@ -31,7 +35,7 @@ Grupo 5:
 ---------  
 Componentes:Renata Machado - reehmachado, Jordan Mendonça  
 Tema: **JavaScript**  
-Capítulo/título do vídeo : A definir  
+Capítulo/título do vídeo : Cap1 - Introdução ao ECMASCRIPT ES  
 
 Grupo 6:
 ---------  
@@ -47,9 +51,9 @@ Capítulo/título do vídeo : Aprenda Markdown
 
 Grupo 8:   
 ---------  
-Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - isukowski / Maycon Klopper - MayconKlopper    
+Componentes: Eyre Brasil - eyrebrasil / Gilberto - grsonoda / Iann Zukowski - izukowski / Maycon Klopper - MayconKlopper    
 Tema: **MongoDB**  
-Capítulo/título do vídeo : 1 - Introdução ao MongoDB / 
+Capítulo/título do vídeo : 1 - Introdução ao MongoDB / 2 - Instalação e inicialização do MongoDB / 3 - CRUD MongoDB / 4 - Comandos Úteis
 
 Grupo 9:
 --------
@@ -68,4 +72,16 @@ Grupo 11:
 Componentes: Renan Calmon - Renanxc / Pedro - ?  
 Tema: ?  
 Capítulo/título do vídeo : A definir  
+Grupo 12
 
+Grupo 12:  
+--------  
+Componentes:Samuel Ribeiro -vipersamuka    
+Tema: vueJS    
+Capítulo/título do vídeo : A definir
+
+Grupo 13:  
+--------  
+Componentes:Diego Maciel - ??? ; João Tavares - ??? ; Márcio Mota - mmota2017      
+Tema: Heroku     
+Capítulo/título do vídeo : A definir
