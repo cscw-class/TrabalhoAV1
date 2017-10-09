@@ -2,3 +2,9 @@
 	border-bottom: solid 2px #000000;
 	margin-bottom: 20px;
 }
+
+.footer {
+	background-color: #222222; 
+	padding: 20px; 
+	color: white;
+}
