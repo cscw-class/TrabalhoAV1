@@ -1,18 +1,90 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Wistia:</strong>
-  <%= @video.wistia %>
-</p>
+<div class="row">
+  <div class="col md3">
+    <div class="collection">
+      <% @videos.each do |video| %>
+        <%= link_to video.title, video, :class => 'collection-item' %>
+      <% end %>
+    </div>
+  </div>
+  <div class="col m9">
+    <div class="card blue-gray darken-1"> 
+      <div class="card-image">
+        <div id="wistia_<%= @video.wistia %>"></div>
+      </div>
+      <div class="card-content black-text">
+        <span class="card-title"><%= @video.title %></span>
+        <p>Descrição: <%= @video.description %></p>
+        <p>Video id: <%= @video.wistia %></p>
+        <p>Data da publicação: <%= @video.created_at.strftime('%d/%m/%Y') %></p>
+        <br>
+        <div class="row">
+          <div class="col m9">
+            <div class="card-panel grey lighten-5 z-depth-1">
+              <div class="row valign-wapper">
+                <% if @video.id == 1 %>
+                  <div class="col m3">
+                   <%= image_tag "foto.jpg", class: "circle responsive-img" %>
+                  </div>
+                 <div class="col m9">
+                    <span class="black-text">
+                     TEXTO XD
+                    </span>
+                  </div>
+                <% elsif @video.id == 2 %>
+                  <div class="col m3">
+                   <%= image_tag "foto.jpg", class: "circle responsive-img" %>
+                  </div>
+                 <div class="col m9">
+                    <span class="black-text">
+                     TEXTO 2
+                    </span>
+                  </div>
+                <% else %>
+                <div class="col m3">
+                   <%= image_tag "foto.jpg", class: "circle responsive-img" %>
+                  </div>
+                 <div class="col m9">
+                    <span class="black-text">
+                     TEXTO 3
+                    </span>
+                  </div>
+                <% end %>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="card-action">
+        <%= link_to "Anterior", @prev_video %>
+        <span class="right">
+         <%= link_to "Próximo", @next_video if !@next_video.nil? %>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Título:</strong>
-  <%= @video.title %>
-</p>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1397110283902092";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-<p>
-  <strong>Descrição:</strong>
-  <%= @video.description %>
-</p>
+<div id="fb-root"></div>
+<div class="fb-comments"></div>
+
+<script src="//fast.wistia.net/static/E-v1.js" ></script>
+
+<script>
+  wistiaEmbed = Wistia.embed("<%= @video.wistia %>", {
+    videoQuality: "hd-only",
+    videoFoam: true
+  });
+</script>
 
 <a href="<%= videos_path %>" class="btn waves-effect waves-light" name="action">Voltar</a>
