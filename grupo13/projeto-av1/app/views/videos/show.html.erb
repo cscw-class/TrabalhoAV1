@@ -10,11 +10,11 @@
   </div>
   <div class="col m9">
     <div class="card blue-gray darken-1"> 
+    <span class="card-title"><center><%= @video.title %></center></span><p>
       <div class="card-image">
         <div id="wistia_<%= @video.wistia %>"></div>
       </div>
       <div class="card-content black-text">
-        <span class="card-title"><%= @video.title %></span>
         <p>Descrição: <%= @video.description %></p>
         <p>Video id: <%= @video.wistia %></p>
         <p>Data da publicação: <%= @video.created_at.strftime('%d/%m/%Y') %></p>
@@ -24,30 +24,33 @@
             <div class="card-panel grey lighten-5 z-depth-1">
               <div class="row valign-wapper">
                 <% if @video.id == 1 %>
-                  <div class="col m3">
-                   <%= image_tag "foto.jpg", class: "circle responsive-img" %>
+                  <div class="col m2">
+                   <%= image_tag "diego.jpg", class: "circle responsive-img" %>
                   </div>
                  <div class="col m9">
                     <span class="black-text">
-                     TEXTO XD
+                     Autor: Diego Maciel de Amorim<p>
+                     Assunto do vídeo: Como levantar uma aplicação ruby no Heroku
                     </span>
                   </div>
                 <% elsif @video.id == 2 %>
-                  <div class="col m3">
-                   <%= image_tag "foto.jpg", class: "circle responsive-img" %>
+                  <div class="col m2">
+                   <%= image_tag "marcio.jpg", class: "circle responsive-img" %>
                   </div>
                  <div class="col m9">
                     <span class="black-text">
-                     TEXTO 2
+                     Autor: Márcio Mota<p>
+                     Assunto do vídeo: Introdução básica ao Heroku
                     </span>
                   </div>
                 <% else %>
-                <div class="col m3">
-                   <%= image_tag "foto.jpg", class: "circle responsive-img" %>
+                <div class="col m2">
+                   <%= image_tag "jvt.jpg", class: "circle responsive-img" %>
                   </div>
                  <div class="col m9">
                     <span class="black-text">
-                     TEXTO 3
+                     Autor: João Victor Tavares<p>
+                     Assunto do vídeo:
                     </span>
                   </div>
                 <% end %>
@@ -71,20 +74,18 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1397110283902092";
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=2006572269579407";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div id="fb-root"></div>
-<div class="fb-comments"></div>
+<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#abcd" data-width="100%" data-numposts="1"></div>
 
 <script src="//fast.wistia.net/static/E-v1.js" ></script>
 
 <script>
   wistiaEmbed = Wistia.embed("<%= @video.wistia %>", {
-    videoQuality: "hd-only",
     videoFoam: true
   });
 </script>
 
-<a href="<%= videos_path %>" class="btn waves-effect waves-light" name="action">Voltar</a>
+<center><a href="<%= videos_path %>" class="btn waves-effect waves-light" name="action">Voltar</a></center>
