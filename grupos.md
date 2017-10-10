@@ -37,6 +37,7 @@ Componentes:Renata Machado - reehmachado, Jordan Mendonça
 Tema: **JavaScript**  
 Capítulo/título do vídeo : 
 1 - introdução ao ECMASCRIPT ES 
+2- Classes
 
 Grupo 6:
 ---------  
