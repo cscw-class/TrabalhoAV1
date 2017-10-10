@@ -8,3 +8,12 @@
 	padding: 20px; 
 	color: white;
 }
+
+.panel-default > .panel-heading {
+	background-color: #222222;
+	color: white;
+}
+
+.fb-comments, .fb-comments span[style], .fb-comments iframe[style] {
+	width: 100% !important;
+}
