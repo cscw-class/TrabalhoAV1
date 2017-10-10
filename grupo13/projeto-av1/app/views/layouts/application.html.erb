@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ProjetoAv1</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+
+   <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          
+</head>
+<body>
+
+   <nav>
+    <div class="nav-wrapper">
+      <%= link_to image_tag("logo-learnpedia-transp.png", width: "53px", boder: 0 ), root_path %>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="<%= root_path %>"><i class="material-icons">ondemand_video</i></a></li>
+        <li><%= link_to new_video_path do %>
+  <i class="material-icons">playlist_add</i>
+<% end %>
+        
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col m10 offset-m1">
+      <%= yield %>
+    </div>
+  </div>
+
+  <script>
+    $(".button-collapse").sideNav();
+  </script>
+
+</body>
+</html>

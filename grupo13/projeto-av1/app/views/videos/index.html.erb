@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Lista de Videos</h1>
+
+<%= link_to new_video_path, :class => 'btn-floating btn-large waves-effect waves-light red' do %>
+  <i class="large material-icons">add</i>
+<% end %>
+
+<ul class="collapsible" data-collapsible="accordion">
+  <% @videos.each do |video| %>
+    <li>
+      <div class="collapsible-header">
+        <i class="small material-icons">list</i>
+        <%= link_to video.title, video %>
+        <span class="right">
+          <%= link_to edit_video_path(video) do %>
+            <i class="small material-icons">mode_edit</i>
+          <% end %>
+          <%= link_to video, method: :delete, data: { confirm: 'Tem certeza?' } do %>
+            <i class="small material-icons">delete_forever</i>
+          <% end %>
+        </span>
+       <div class="collapsible-body"><p><%= video.description %></p></div>
+      </div>
+    </li>
+  <% end %>
+</ul>
+
+<script>
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+</script>
