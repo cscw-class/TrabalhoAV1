@@ -12,5 +12,8 @@
 .panel-default > .panel-heading {
 	background-color: #222222;
 	color: white;
-  }
-  
+}
+
+.fb-comments, .fb-comments iframe[style] {
+	width: 100% !important;
+}
