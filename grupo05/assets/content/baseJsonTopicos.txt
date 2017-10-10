@@ -1,0 +1,7 @@
+{
+    "Gestão de Contratos": "Treinamento Passo a Passo2",
+    "Integrações": "O que preciso para realizar o treinamento remoto?",
+    "Importação de contratos": "O que preciso para realizar o treinamento remoto?",
+    "Contas a pagar/receber": "O que preciso para realizar o treinamento remoto?",
+    "Telemarketing": "Extração de Listagem"
+}
