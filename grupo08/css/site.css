@@ -14,6 +14,6 @@
 	color: white;
 }
 
-.fb-comments, .fb-comments span[style], .fb-comments iframe[style] {
+.fb-comments, .fb-comments span[style] {
 	width: 100% !important;
 }
