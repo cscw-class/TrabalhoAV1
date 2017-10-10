@@ -1,0 +1,8 @@
+{
+    "Gestão de Contratos": "ATUALIZAÇÃO DE PRODUTOS",
+    "Integrações": "Vínculo de Usuário de Consulta VIPER",
+    "Cadastros Gerais": "Cadastro de Filial",
+    "Telemarketing": "Treinamento Passo a Passo",
+    "Importação de contratos": "Identificação de Vendedor e Configuração de Importação",
+    "Contas a pagar/receber": "Cadastros Básicos"
+}

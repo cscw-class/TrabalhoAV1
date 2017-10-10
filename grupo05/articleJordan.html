@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ES06</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <nav class="uk-navbar-container uk-margin uk-navbar-transparent uk-background-primary uk-light uk-margin-remove-bottom">
+        <div class="uk-container">
+            <div uk-navbar>
+                <div class="uk-navbar-left">
+                <img class="uk-border" width="80" height="80" src="assets/img/Logo-Learnpedia.png">
+                    <a class="uk-navbar-item uk-logo uk-text-uppercase" href="articleRenata.html"><span class="uk-margin-small-right" ></span> ECMASCRIPT ES6</a>
+                </div>
+                <div class="uk-navbar-right">
+                    <!--<ul class="uk-navbar-nav uk-text-uppercase uk-visible@m uk-margin-medium-left">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="components.html">Components</a></li>
+                    </ul>-->
+                    <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" uk-navbar-toggle-icon uk-toggle></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-section section-sub-nav uk-padding-remove">
+        <div class="uk-container">
+            <div uk-grid>
+                <div class="uk-width-2-3@m">
+                    <ul class="uk-breadcrumb uk-visible@m">
+                        <!--<li><a href="index.html">Home</a></li>-->
+                       <!-- <li><span>1 - introdução ao ECMASCRIPT ES6</span></li>-->
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="border-top"></div>
+        </div>
+    </div>
+
+    <div class="uk-section uk-section-small uk-padding-remove-bottom section-content">
+        <div class="uk-container uk-position-relative">
+            <div uk-grid>
+                <div class="uk-width-3-4@m">
+                    <article class="uk-article">
+                        <header>
+                            <h1 class="uk-article-title uk-margin-bottom">Utilizando Classes no ECMASCRIPT ES6</h1>
+                            <div class="author-box uk-card">
+                                <div class="uk-card-header uk-padding-remove">
+                                    <div class="uk-grid-small uk-flex-middle  uk-position-relative" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <img class="uk-border-circle" width="40" height="40" src="assets/img/jordan.jpg">
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <h5 class="uk-card-title">Jordan Mendonça</h5>
+                                            <p class="uk-article-meta uk-margin-remove-top">Created: Out 03, 2017 - Updated: Out 03, 2017</p>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+                        <div class="entry-content uk-margin-medium-top">
+                            <p class="uk-text-lead">Antes do ECMAScript (ou ES) o javascript não possuía classes nem maneira alguma para definir uma herança. Para contornar essa situação foram criadas diversas bibliotecas de suporte como, _underscorejs e jQuery, que permitiam fazer composição de uma forma mais parecida com herança. Neste vídeo iremos abordar o uso de Classes no JavaScript</p>
+                            
+                            <div  align= "center" class="uk-width-1-1">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/QOOrTNvb6Gg" frameborder="0" allowfullscreen></iframe>
+                               </div><br>
+                               <div  align= "center" class="uk-width-1-1">
+                               	
+                               <a href="articleRenata.html" class="uk-button uk-button-large uk-button-primary">Anterior</a>
+
+                                </div>
+                                
+                           <h2 id="animation-fade"></h2>
+                            <p class="uk-text-lead"><b>O que é</b>
+                            <br>
+                                        Classe é uma estrutura que descreve estados e comportamentos de um determinado objeto. Antes do ES6, o Javascript utilizava uma função construtora para criar a classe. Por estes motivos, o ECMAScript6 prevê uma nova especificação, que tem como objetivo uniformizar e simplificar a definição de classes do modo mais minimalista possível.
+                                         <br><br>
+                                        <b>Objetivos</b>
+                                        <br>
+                                        O objetivo é uniformizar e simplificar a definição de classes do modo mais minimalista possível.<br>
+                                        <br>
+                                        <b>Novidades</b>
+                                        <br>
+                                        - A declaração de “class” assim como “let” e “const” não fazem hoisting como “function” e “var”.
+                                        <br>
+                                        - O escopo interno das classes roda sempre em strict mode.
+                                        <br>
+                                        - Métodos dentro de classes não possuem construtor o que impossibilita a chamada com new.
+										<br>
+                                        - Não é possível chamar o construtor de uma classe sem new.
+										<br>
+                                        - Não é possível sobrescrever o nome da classe com um método interno.
+										
+                            </p>
+                        </div>
+                        
+                        <div class="uk-margin-medium-top border-top padding-top">
+                            <h3 class="uk-margin-medium-bottom">Comentários</h3>
+                            <div class="fb-comments" data-href="http://localhost:8000/articleJordan.html" data-width="100" data-numposts="5"></div>
+                            
+                        </div>
+                       <!-- <div class="reply uk-margin-medium-top border-top padding-top">
+                            <h3 class="uk-margin-medium-bottom">Leave a Comment</h3>
+                            <form class="uk-grid-small" uk-grid>
+                                <div class="uk-width-1-2@s">
+                                    <input class="uk-input" type="text" placeholder="Name">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    <input class="uk-input" type="email" placeholder="Email">
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <textarea class="uk-textarea" rows="5" placeholder="Comment"></textarea>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <button class="uk-button uk-button-primary uk-width-1-1 uk-width-auto@s">Submit</button>
+                                </div>
+                            </form>
+                        </div>-->
+                    </article>
+                </div>
+
+                <!--<div class="uk-width-1-4@m">
+                    <div uk-sticky="offset: 100" class="scrollspy uk-sticky uk-active uk-card uk-card-small uk-card-body uk-padding-remove-top uk-visible@m">
+                        <h3 class="uk-card-title">Table of Contents</h3>
+                        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true; offset: 30">
+                            <li><a href="#animation-repeat">Instalation</a></li>
+                            <li><a href="#animation-delay">Quick Setup</a></li>
+                            <li><a href="#animation-fade">Advanced Options</a></li>
+                            <li><a href="#animation-scale-up">Content Import</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="uk-section uk-margin-large-top uk-section-xsmall uk-text-small uk-text-muted border-top">
+       <div class="uk-container">
+            <div class="uk-child-width-1-2@m uk-text-center" uk-grid>
+              <!--<div class="uk-text-right@m">
+                    <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: facebook"></a>
+                    <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: google"></a>
+                    <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: vimeo"></a>
+                    <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: instagram"></a>
+                    <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: twitter"></a>
+                    <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: youtube"></a>
+                </div> -->
+                <div class="uk-flex-first@m uk-text-left@m">
+                    <p class="uk-text-small">Copyright 2017 Powered by Code Love</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="offcanvas" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar">
+            <a class="uk-margin-small-bottom uk-logo uk-text-uppercase" href="index.html"><span class="uk-margin-small-right" uk-icon="icon: lifesaver"></span> Knowledge</a>
+            <ul class="uk-nav uk-nav-default uk-text-uppercase">
+                <li><a href="index.html">Home</a></li>
+                <li class="uk-parent">
+                    <a href="article.html">Article</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="article.html">Scrollspy</a></li>
+                        <li><a href="article-narrow.html">Narrow</a></li>
+                    </ul>
+                </li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="components.html">Components</a></li>
+            </ul>
+            <a href="contact.html" class="uk-button uk-button-small uk-button-default uk-width-1-1 uk-margin">Support</a>
+            <div class="uk-width-auto uk-text-center">
+                <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: facebook"></a>
+                <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: google"></a>
+                <a href="#" class="uk-icon-link uk-margin-small-right" uk-icon="icon: twitter"></a>
+            </div>            
+        </div>
+    </div>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59ce22e4cb90d2c5"></script>
+
+</body>
+
+</html>
