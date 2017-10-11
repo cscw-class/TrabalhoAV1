@@ -1,0 +1,443 @@
+/* ================ layout =============== */
+html, body, .capa{
+	height: 100%;
+}
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+/* -- Barra de Navegação -- */
+.img-logo{
+	height: 42px;
+	width: 51px;
+	background: url('../img/Logo-Learnpedia2.png') no-repeat; 
+	display: inline-block;
+	background-size: contain; /* imagem de fundo preenche */
+	color: transparent;
+}
+
+.txt-logo{
+	height: 42px;
+	width: 174px;
+	background: url('../img/logo-learnpedia-white.png') no-repeat; 
+	display: inline-block;
+	background-size: contain; /* imagem de fundo preenche */
+	color: transparent;
+}
+
+nav.navbar-principal{
+	padding: 15px 0;
+	background: #000;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+	border:  none;
+	transition: all .3s;
+}
+
+nav.header_fixed{
+	padding: 10px 0;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-principal .navbar-nav>li>a, .rodape .nav a{
+	color:white;
+}
+
+.navbar-principal .navbar-nav>li>a:hover, .rodape .nav a:hover{
+	color:#39b54a;
+	background: none;
+}
+
+.detalhes-topo{
+	/* margin-top: 80px; */
+	background: white;
+}
+.video-col{
+	transition: all .3s;
+}
+.search-button{
+	max-width: 250px;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+.animado{
+	transition: all .3s;
+}
+
+/* -------------------SIDEBAR--------------------------- */
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+  margin-top: 70px;
+}
+
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 250px;
+  width: 250px;
+  background: #eaeaea;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+  padding-top: 10px;
+}
+
+#wrapper.active {
+  padding-left: 0;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 0;
+}
+
+#page-content-wrapper {
+	padding-top: 10px;
+  width: 100%;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-right: #ddd 1px solid;
+  height: 100%;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #999999;
+  display: block;
+  text-decoration: none;
+  padding-left: 60px;
+}
+
+.sidebar-nav li a span:before {
+  position: absolute;
+  left: 0;
+  color: #41484c;
+  text-align: center;
+  width: 20px;
+  line-height: 18px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li.active {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#menu-toggle {
+    text-decoration: none;
+    float: left;
+    color: #000;
+    padding: 5px 10px;
+}
+
+.bg-black{
+	background: black;
+}
+.bg-gray{
+	background: #eaeaea;
+}
+.menu-toggle a{
+	transition: all 1s;
+}
+.menu-toggle{
+	position: absolute;
+	right: -25px;
+}
+.panel-learnpedia{
+	border: 0px;
+	border-radius: 0;
+}
+.panel-learnpedia .panel-heading{
+	border-radius: 0;
+	color: #fff;
+}
+.panel-learnpedia .active{
+	background-color: #009245;
+}
+.panel-learnpedia .list-group-item.active{
+	border-color: #009245;
+}
+.panel-learnpedia .list-group-item:hover{
+	background-color: #8cc63f;
+	color:#fff;
+}
+.panel-learnpedia .list-group-item.active:hover{
+	background-color: #009245;
+}
+.panel-learnpedia .list-group-item.active:focus{
+	background-color: #009245;
+}
+.rodar{
+	/* Safari */
+	-webkit-transform: rotate(-180deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-180deg);
+
+	/* IE */
+	-ms-transform: rotate(-180deg);
+
+	/* Opera */
+	-o-transform: rotate(-180deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=4);
+}
+#sidebar-wrapper::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#sidebar-wrapper::-webkit-scrollbar
+{
+	width: 4px;
+	height: 4px;
+	background-color: #F5F5F5;
+}
+
+#sidebar-wrapper::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+@media (max-width:767px) {
+
+#wrapper {
+  padding-left: 0;
+}
+
+#sidebar-wrapper {
+  left: 0;
+}
+
+#wrapper.active {
+  position: relative;
+  left: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 250px;
+  width: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#menu-toggle {
+  display: inline-block;
+}
+
+}
+
+/* ===== BOTOES ===== */
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0 15px;
+	transition: background 0.4s, color 0.4s; /*suaviza transição dos botoes*/
+}
+
+.btn-roxo{
+	background:  #7c25f8;
+}
+.btn-roxo:hover{
+	background:  #6207e3;
+	color: white;
+}
+.btn-branco{
+	border: 2px solid white;
+}
+.btn-branco:hover{
+	background-color: white;
+	color:  black;
+}
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 4em;
+    opacity: 0.9;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    outline: none;
+    text-align: center;
+}
+.share-btn:hover,
+.share-btn:focus {
+  color: #eeeeee;
+}
+.share-btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+  color: #e2e2e2;
+  outline: none;
+}
+.share-btn.twitter { background: #55acee; }
+.share-btn.google-plus { background: #dd4b39; }
+.share-btn.facebook { background: #3B5998; }
+.share-btn.stumbleupon { background: #EB4823; }
+.share-btn.reddit { background: #ff5700; }
+.share-btn.linkedin    { background: #4875B4; }
+.share-btn.email { background: #444444; }
+
+/* -- secao video -- */
+.video{
+	background: white;
+	transition: all .3s;
+}
+
+.bg-black{
+	background: black;
+}
+
+.conteudo-principal{
+	background: white;
+	margin-bottom: 30px;
+}
+
+.albuns{
+	padding: 10px 0 10px 0;
+}
+
+/* -- CONTEUDO PRINCIPAL -- */
+.conteudo-principal{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
+.line-bottom{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+.line-bottom .nav-tabs{
+	border-bottom: none;
+	float: left;
+	width: 50%;
+}
+.social-share{
+	display: inline-block;
+}
+
+ /* ======= FOOTER ======= */
+footer {
+	background: #555;
+	padding:  50px 0px 20px 0px;
+	position: relative;
+}
+footer .img-logo{
+	background: url('../img/Logo-Learnpedia1.png') no-repeat; 
+	background-size: contain;
+	height: 118px;
+}
+
+.item-rede-social{
+	
+}
+.logo-footer{
+	width:140px;
+}
+
+/* ================ tipografia =============== */
+
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+.rodape h4{
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.video h2, .video h3{
+	color: #7c25f8;
+}
+
+.recursos h3{
+	color: #9bf0e1;
+}
+
+/*== CORES ==*/
+
+.bg-logo1{
+	background-color: #009245;
+}
+.bg-logo2{
+	background-color: #39b54a;
+}
+.bg-logo3{
+	background-color: #8cc63f;
+}
