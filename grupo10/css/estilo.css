@@ -65,18 +65,10 @@ nav.header_fixed{
 .video-col{
 	transition: all .3s;
 }
-/* ===== imagem de capa ===== */
-.capa{
-	width: 100%;
-	display: table;
-}
-
-.texto-capa{
-	text-align: center;
-	color:  white;
-	display: table-cell;
-	vertical-align: middle;
-	letter-spacing: -0.05em;
+.search-button{
+	max-width: 250px;
+	margin-top: 8px;
+	margin-left: 15px;
 }
 .animado{
 	transition: all .3s;
@@ -90,7 +82,7 @@ nav.header_fixed{
 #wrapper {
   padding-left: 250px;
   transition: all 0.4s ease 0s;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 #sidebar-wrapper {
@@ -102,6 +94,7 @@ nav.header_fixed{
   height: 100%;
   z-index: 1000;
   transition: all 0.4s ease 0s;
+  padding-top: 10px;
 }
 
 #wrapper.active {
@@ -113,6 +106,7 @@ nav.header_fixed{
 }
 
 #page-content-wrapper {
+	padding-top: 10px;
   width: 100%;
   transition: all 0.4s ease 0s;
 }
@@ -209,8 +203,12 @@ nav.header_fixed{
 .panel-learnpedia .list-group-item.active{
 	border-color: #009245;
 }
-.panel-learnpedia .list-group-item.active:hover{
+.panel-learnpedia .list-group-item:hover{
 	background-color: #8cc63f;
+	color:#fff;
+}
+.panel-learnpedia .list-group-item.active:hover{
+	background-color: #009245;
 }
 .panel-learnpedia .list-group-item.active:focus{
 	background-color: #009245;
@@ -369,9 +367,15 @@ nav.header_fixed{
 }
 .line-bottom{
 	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
 }
 .line-bottom .nav-tabs{
 	border-bottom: none;
+	float: left;
+	width: 50%;
+}
+.social-share{
+	display: inline-block;
 }
 
  /* ======= FOOTER ======= */
@@ -388,6 +392,9 @@ footer .img-logo{
 
 .item-rede-social{
 	
+}
+.logo-footer{
+	width:140px;
 }
 
 /* ================ tipografia =============== */
