@@ -70,9 +70,8 @@ Capítulo/título do vídeo : ???
 Grupo 11:  
 --------  
 Componentes: Renan Calmon - Renanxc / Pedro - ?  
-Tema: ?  
-Capítulo/título do vídeo : A definir  
-Grupo 12
+Tema: JavaScript  
+Capítulo/título do vídeo : 1 - Apresentação Js / 2 - Primeiros Passos com Js / 3 - Utilizando Framework / 4 - Introdução ao EcmaScript 6 
 
 Grupo 12:  
 --------  
