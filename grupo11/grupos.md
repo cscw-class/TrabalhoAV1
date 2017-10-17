@@ -65,7 +65,7 @@ Capítulo/título do vídeo : ???
 
 Grupo 11:  
 --------  
-Componentes: Renan Calmon - Renanxc / Pedro - ?  
+Componentes: Renan Calmon - Renanxc / Pedro - Pedroteixeirabisognin 
 Tema: **Javascript** 
 Capítulo/título do vídeo : Introdução a javascript
 Grupo 12
