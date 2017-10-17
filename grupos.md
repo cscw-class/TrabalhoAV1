@@ -71,10 +71,9 @@ Capítulo/título do vídeo : ???
 
 Grupo 11:  
 --------  
-Componentes: Renan Calmon - Renanxc / Pedro - ?  
-Tema: ?  
-Capítulo/título do vídeo : A definir  
-Grupo 12
+Componentes: Renan Calmon - Renanxc / Pedro - Pedroteixeirabisognin  
+Tema: **Javascript** 
+Capítulo/título do vídeo : 1 - Instalando Sublime Text / 2 - Inserindo Js em códigos HTML5 / 3 - O que é JQuery / 4 - Introdução ao EcmaScript 6
 
 Grupo 12:  
 --------  
