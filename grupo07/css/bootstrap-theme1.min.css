@@ -1,0 +1,24 @@
+/*!
+ * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+.border-color, .vert-text h1 {
+  border-color:#d9cb8a ;
+}
+.color-primary, .send:hover, .color-primary:hover{
+color:#d9cb8a;
+}
+
+.bg-primary{
+background-color:#d9cb8a;
+}
+        
+
+.form-control:focus {
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(217, 203, 138, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(217, 203, 138, .6);
+}
